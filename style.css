@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -38,30 +39,98 @@ body {
   font-size: 24px;
   font-weight: bold;
   color: #6c757d;
+=======
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: #f7f6f5;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  z-index: 1000;
+}
+
+.header-nav-img {
+  max-height: 60px;
+}
+
+.header-nav-ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+  padding-right: 70px;
+}
+.header-nav-ul-li-a {
+  text-decoration: none !important;
+  color: #333 !important;
+  font-weight: 500;
+}
+
+.header-nav-ul-li-a:hover {
+  color: #2db3b3 !important;
+}
+
+.formulario-registro {
+  background-color: white;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  width: 300px;
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 20px;
+  color: #333;
+>>>>>>> 50aafb4 (Guardando cambios)
 }
 
 .items {
   display: flex;
   flex-direction: column;
-  gap: 30px;
 }
-
-.items button {
-  padding: 0.8rem;
-  background-color: #bcd763;
-  border: none;
-  border-radius: 8px;
-  color: #1d1d1d;
-  font-weight: bold;
-  cursor: pointer;
+label {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #555;
 }
-
-.items label {
-  color: #6c757d;
-  font-weight: bold;
+input {
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
 }
-.items input {
-  border-radius: 3px;
+button {
   padding: 10px;
-  border-color: #28c3c3;
+  background-color: #c4e538;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #b2d732;
 }
