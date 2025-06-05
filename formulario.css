@@ -130,6 +130,7 @@ form.items button:hover {
 
   nav ul.nav-list {
     display: none;
+    text-align: center;
     flex-direction: column;
     width: 100%;
     background-color: #f7f6f5;
