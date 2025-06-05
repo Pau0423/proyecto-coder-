@@ -3,167 +3,59 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Subscription Card</title>
+    <title>ComunityDev</title>
+    <link rel="stylesheet" href="index.css" />
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
       rel="stylesheet"
     />
-
-    <style>
-      body {
-        background-color: #dff2f6;
-        min-height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 2rem;
-      }
-
-      .header {
-        background-color: #f7f6f5;
-      }
-
-      .card {
-        background-color: #f7f6f5;
-        border: none;
-        overflow: hidden;
-        max-width: 400px;
-        width: 100%;
-        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-        display: flex;
-      }
-
-      .join-ourcomunity {
-        color: #2db3b3;
-        font-weight: 600;
-      }
-
-      .guarantee {
-        color: #a8eb12;
-        font-weight: 600;
-      }
-
-      .card-pricing {
-        background-color: #29b6b6;
-        color: ;
-      }
-
-      .signup-btn {
-        background-color: #a8eb12;
-        border: none;
-        color: black;
-        font-weight: bold;
-        border-radius: 5px;
-        padding: 15px;
-        width: 90%;
-        align-content: center;
-      }
-
-      .signup-btn:hover {
-        background-color: #94d710;
-      }
-
-      .card-features {
-        background-color: #28c3c3;
-        color: white;
-      }
-
-      ul li {
-        margin-bottom: 0.5rem;
-      }
-      @media (min-width: 375px) {
-        .card {
-          max-width: 900px;
-        }
-        .card-total {
-          display: grid;
-          grid-template-columns: 1fr 1fr;
-        }
-      }
-    </style>
-  </head>
-  <body>
-    <header class="header">
-      <img src="images/ChatGPT Image 4 may 2025, 19_29_36.png" alt="ComunityDev
-      logo" class="img-fluid" style="max-height: 60px"
-    </header>
-    <div class="card">
-      <div class="card-1 p-4">
-        <h4 class="join-ourcomunity">Join our community</h4>
-        <p class="guarantee">30-day, hassle-free money back guarantee</p>
-        <p class="text-muted">
-          Gain access to our full library of tutorials along with expert code
-          reviews. Perfect for any developers who are serious about honing their
-          skills.
-        </p>
-      </div>
-
-      <div class="card-total">
-        <div class="card-pricing p-4">
-          <h5 class="fw-bold">Monthly Subscription</h5>
-          <h2 class="display-6 fw-bold">
-            $29 <small class="fs-6 fw-normal">per month</small>
-          </h2>
-          <p>Full access for less than $1 a day</p>
-          <a href="formulario.html" class="btn signup-btn mt-2 px-4 py-2"
-            >Sign Up</a
-          >
-        </div>
-        <div class="card-features p-4">
-          <h5 class="fw-bold">Why Us</h5>
-          <ul class="list-unstyled">
-            <li>Tutorials by industry experts</li>
-            <li>Peer & expert code review</li>
-            <li>Coding exercises</li>
-            <li>Access to our GitHub repos</li>
-            <li>Community forum</li>
-            <li>Flashcard decks</li>
-            <li>New videos every week</li>
-=======
-    <link rel="stylesheet" href="index.css" />
-    <title>Document</title>
   </head>
   <body>
     <header>
-      <sectio>
-        <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="join-our-community.html">Join-our-comunity</a></li>
-            <li><a href="formulario.html">Registration Form</a></li>
->>>>>>> 50aafb4 (Guardando cambios)
-          </ul>
-          <img src="images/ChatGPT Image 4 may 2025, 19_29_36.png" alt="logo" />
-        </nav>
-      </sectio>
-      <section>
-        <div>
-          <h1>ComunityDev</h1>
-          <h4>Master coding with guidance from the best</h4>
-          <p>
-            Get access to our complete library of tutorials and expert code
-            reviews. A platform built for developers who are serious about
-            improving their skills.
-          </p>
+      <nav class="navbar">
+        <div class="logo-container">
+          <img
+            src="images/ChatGPT Image 4 may 2025, 19_29_36.png"
+            alt="logo"
+            class="logo"
+          />
         </div>
-      </section>
+
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="menu-icon">☰</label>
+
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="join-our-community.html">Join-our-community</a></li>
+          <li><a href="formulario.html">Registration Form</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <div>
+        <h1>ComunityDev</h1>
+        <h4 class="slide-in">Master coding with guidance from the best</h4>
+        <p class="slide-in">
+          Get access to our complete library of tutorials and expert code
+          reviews. A platform built for developers who are serious about
+          improving their skills.
+        </p>
+      </div>
+
+      <div>
+        <h2>About us</h2>
+        <p>
+          At Comunity Dev, we believe the best code comes from collaboration and
+          continuous learning. We’re a community of passionate developers with
+          one shared mission: to raise the bar in software development through
+          real, applicable knowledge. We bring together industry experts to
+          deliver hands-on tutorials, conduct in-depth code reviews, and help
+          devs grow in their careers.
+        </p>
+      </div>
+
       <section>
-        <div>
-          <h2>About us</h2>
-          <p>
-            At Comunity Dev, we believe the best code comes from collaboration
-            and continuous learning. We’re a community of passionate developers
-            with one shared mission: to raise the bar in software development
-            through real, applicable knowledge. We bring together industry
-            experts to deliver hands-on tutorials, conduct in-depth code
-            reviews, and help devs grow in their careers.
-          </p>
-        </div>
-      </section>
-      <section>
-        <div>
-          <h2>What We Offer</h2>
-        </div>
+        <div><h2>What We Offer</h2></div>
         <div class="feature">
           <h3>📘 Hands-on Tutorials</h3>
           <p>Learn with real, step-by-step examples.</p>
@@ -181,27 +73,40 @@
           <p>Grow alongside other devs with the same goals.</p>
         </div>
       </section>
+
       <section class="testimonials">
         <h2>🗣️ What Developers Are Saying</h2>
-
         <div class="testimonial-grid">
-          <div class="testimonial">
+          <div
+            class="testimonial"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-delay="0"
+          >
             <p class="quote">
               "The code reviews helped me see my blind spots. It’s like having a
               senior dev over your shoulder."
             </p>
             <p class="author">— Laura M., Full-Stack Developer</p>
           </div>
-
-          <div class="testimonial">
+          <div
+            class="testimonial"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+          >
             <p class="quote">
               "I stopped guessing and started coding with purpose. The tutorials
               go straight to the point."
             </p>
             <p class="author">— Kevin R., Frontend Engineer</p>
           </div>
-
-          <div class="testimonial">
+          <div
+            class="testimonial"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-delay="400"
+          >
             <p class="quote">
               "This is the kind of learning I wish I had earlier in my career.
               Real advice, real improvement."
@@ -210,6 +115,11 @@
           </div>
         </div>
       </section>
-    </header>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
